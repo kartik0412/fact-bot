@@ -1,6 +1,6 @@
 const { Telegraf } = require("telegraf");
 const axios = require("axios");
-const bot = new Telegraf("1210345734:AAFHKnovA8xRixyUezp-r4OhYxOhuHSc7Zw");
+const bot = new Telegraf("YOUR_TOKEN_HERE");
 let maxq = 10;
 let quotes = [];
 getdata = async () => {
